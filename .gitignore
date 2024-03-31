@@ -1,2 +1,4 @@
 node_modules/
 .env
+axios.defaults.baseURL = 'http://localhost:5000/api'
+.axiosConfig.js

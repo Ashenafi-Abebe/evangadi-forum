@@ -73,12 +73,11 @@ const AskQuestion = () => {
     <section>
       <Header />
       <div className="container d-flex flex-column align-items-center mt-4 ">
-        {/* steps and how to write Q  */}
+        steps and how to write Q
         <div className="justify-content-around ">
           {/*  how to write Q  Title*/}
           <h2>Steps to Write a good questions </h2>
         </div>
-
         <div>
           {/*step to write Q  */}
           <ul>

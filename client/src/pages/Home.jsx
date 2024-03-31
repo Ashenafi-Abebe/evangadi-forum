@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
+// import Footer from "../components/Footer/Footer";
 import { useNavigate, Link } from "react-router-dom";
 import { PiUserCircleDuotone } from "react-icons/pi";
 import { FaAngleRight } from "react-icons/fa";
@@ -8,7 +8,7 @@ import { AppState } from "../App";
 
 const Home = () => {
   const { user, question } = useContext(AppState);
-
+  console.log(question);
   const navigate = useNavigate();
 
   const handleAskQuestionClick = () => {
@@ -37,7 +37,7 @@ const Home = () => {
         <div className="container mt-5">
           <h2>Question</h2>
 
-          {question.question?.map((item, index) => (
+          {question?.allquestion?.map((item, index) => (
             <Link
               className="text-decoration-none text-black"
               key={index}

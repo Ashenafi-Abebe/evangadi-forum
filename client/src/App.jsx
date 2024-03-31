@@ -5,7 +5,6 @@ import { Route, Routes, useNavigate } from "react-router-dom";
 import axios from "./axiosConfig";
 import AskQuestion from "./components/AskQuestion/AskQuestion";
 import Answer from "./components/Answer/Answer";
-// import Footer from "./components/Footer/Footer";
 
 export const AppState = createContext();
 
@@ -60,7 +59,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/questions" element={<AskQuestion />} />
         <Route path="/answer" element={<Answer />} />
-        {/* <Route path="/Footer" element={<Footer />} /> */}
       </Routes>
     </AppState.Provider>
   );
