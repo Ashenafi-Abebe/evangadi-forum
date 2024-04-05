@@ -4,8 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-.axiosConfig.js
-
 # testing
 /coverage
 
@@ -22,4 +20,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-axiosConfig.js
+
