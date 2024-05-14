@@ -22,19 +22,19 @@ function Footer() {
 
               <ul className="footer-social-list list-social list-inline">
                 <li>
-                  <a href="https://www.facebook.com/EthiopiansNetwork">
+                  <a href="#">
                     <AiFillFacebook />
                     <i className="social_facebook "></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/evangaditech/">
+                  <a href="#">
                     <TiSocialInstagram />
                     <i className="social_instagram "></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/c/weareethiopians">
+                  <a href="#">
                     <AiFillYoutube />
                     <i className="social_youtube "></i>
                   </a>
